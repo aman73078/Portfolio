@@ -108,7 +108,7 @@ export class AppComponent {
   }
 
   onDownload() {
-    const resumeUrl = '/assets/image/Aman_Tripathi_angular.pdf'; // Corrected file path
+    const resumeUrl = './assets/Aman_Tripathi_angular.pdf'; // Corrected file path
     const anchor = document.createElement('a'); // Create anchor element
     anchor.href = resumeUrl; // Set the file URL
     anchor.download = 'Aman_Tripathi_angular.pdf'; // Set the download file name
